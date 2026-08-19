@@ -1,0 +1,11 @@
+Use case: photorealistic-natural
+Asset type: wide website project photography for a premium general contractor demo
+Primary request: Photorealistic light-filled living-room addition opening onto a garden through black steel-framed glass doors, with honest timber structure, warm plaster, limestone floor, built-in oak storage, and a visible seamless connection to the older house.
+Scene/backdrop: refined but attainable residential renovation, no people.
+Style/medium: architectural editorial photography with natural detail and believable construction.
+Composition/framing: wide landscape from inside the existing home looking through the new addition to garden; strong architectural layers; clear mid-tone area suitable for small white or charcoal interface labels.
+Lighting/mood: soft late-afternoon daylight, warm, calm, inviting.
+Color palette: warm plaster, oak, charcoal steel, limestone, garden green.
+Materials/textures: matte plaster, visible timber grain, honed stone, linen upholstery.
+Constraints: no people, no logos, no text, no watermark, no impossible structure, no blown highlights.
+Avoid: generic stock-photo sheen, all-white showroom, gray flip-house palette, extreme luxury, fisheye distortion.

@@ -1,0 +1,11 @@
+Use case: photorealistic-natural
+Asset type: wide website hero and project photography for a premium general contractor demo
+Primary request: Photorealistic completed residential kitchen renovation with warm white plaster walls, natural white oak cabinetry and ceiling beams, a generous stone island, black steel windows, restrained handcrafted details, and a connection to a leafy garden.
+Scene/backdrop: lived-in but immaculate modern craftsman home, no people.
+Style/medium: high-end architectural editorial photography, natural and believable rather than showroom-perfect.
+Composition/framing: very wide landscape; eye-level from the adjacent living area; strong depth from kitchen island toward garden; useful darker negative space along the left quarter for white website headline text; no extreme wide-angle distortion.
+Lighting/mood: late-morning natural light, warm but neutral, confident and welcoming.
+Color palette: warm plaster, white oak, charcoal metal, muted garden green, limestone.
+Materials/textures: visible wood grain, honed stone, subtle plaster, woven upholstery.
+Constraints: no people, no logos, no text, no watermark, no impossible architecture, no blown highlights, no fisheye distortion.
+Avoid: generic stock-photo sheen, gray flip-house palette, farmhouse signs, excessive decor, luxury mansion scale.

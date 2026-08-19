@@ -1,0 +1,11 @@
+Use case: photorealistic-natural
+Asset type: wide website hero and project photography for a premium general contractor demo
+Primary request: Photorealistic completed residential addition on a refined modern craftsman house, white limewash exterior, warm timber porch, dark standing-seam roof, carefully integrated new wing, native landscaping.
+Scene/backdrop: quiet leafy residential setting, no people, no vehicles.
+Style/medium: high-end architectural editorial photography, natural and believable.
+Composition/framing: wide landscape exterior from slightly below eye level; house occupies center and right; generous clear sky and light-toned wall area to the left for dark website headline text; straight verticals and realistic perspective.
+Lighting/mood: soft golden-hour side light, calm, trustworthy, lived-in.
+Color palette: warm white, weathered oak, charcoal metal, limestone, sage planting.
+Materials/textures: limewash, natural timber, stone, matte metal, native grasses.
+Constraints: no people, no logos, no text, no watermark, no impossible architecture, no exaggerated mansion scale.
+Avoid: real estate listing look, HDR, fisheye distortion, suburban tract home, generic stock-photo sheen.

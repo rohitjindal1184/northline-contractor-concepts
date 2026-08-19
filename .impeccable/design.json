@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-19T00:24:36Z",
+  "title": "Design System: Northline Build Co. — Contractor's Sample Book",
+  "extensions": {
+    "colorMeta": {
+      "shared-forest": { "role": "neutral", "displayName": "Shared Forest", "canonical": "#17211b", "tonalRamp": ["oklch(15% 0.035 150)", "oklch(25% 0.035 150)", "oklch(36% 0.035 150)", "oklch(48% 0.035 150)", "oklch(60% 0.035 150)", "oklch(72% 0.03 150)", "oklch(84% 0.02 150)", "oklch(95% 0.01 150)"] },
+      "shared-paper": { "role": "neutral", "displayName": "Shared Paper", "canonical": "#f1ead9", "tonalRamp": ["oklch(15% 0.025 85)", "oklch(25% 0.025 85)", "oklch(36% 0.025 85)", "oklch(48% 0.025 85)", "oklch(60% 0.025 85)", "oklch(72% 0.023 85)", "oklch(84% 0.02 85)", "oklch(95% 0.015 85)"] },
+      "shared-clay": { "role": "primary", "displayName": "Shared Clay", "canonical": "#c7653d", "tonalRamp": ["oklch(15% 0.15 45)", "oklch(25% 0.15 45)", "oklch(36% 0.15 45)", "oklch(48% 0.15 45)", "oklch(60% 0.15 45)", "oklch(72% 0.12 45)", "oklch(84% 0.08 45)", "oklch(95% 0.03 45)"] },
+      "shared-clay-hover": { "role": "primary", "displayName": "Deep Clay", "canonical": "#a94f31", "tonalRamp": ["oklch(15% 0.13 40)", "oklch(25% 0.13 40)", "oklch(36% 0.13 40)", "oklch(48% 0.13 40)", "oklch(60% 0.13 40)", "oklch(72% 0.1 40)", "oklch(84% 0.065 40)", "oklch(95% 0.025 40)"] },
+      "focus-coral": { "role": "primary", "displayName": "Focus Coral", "canonical": "#dc744c", "tonalRamp": ["oklch(15% 0.16 45)", "oklch(25% 0.16 45)", "oklch(36% 0.16 45)", "oklch(48% 0.16 45)", "oklch(60% 0.16 45)", "oklch(72% 0.125 45)", "oklch(84% 0.08 45)", "oklch(95% 0.03 45)"] },
+      "gallery-surface": { "role": "neutral", "displayName": "Gallery Surface", "canonical": "#202c25", "tonalRamp": ["oklch(15% 0.035 150)", "oklch(25% 0.035 150)", "oklch(36% 0.035 150)", "oklch(48% 0.035 150)", "oklch(60% 0.035 150)", "oklch(72% 0.03 150)", "oklch(84% 0.02 150)", "oklch(95% 0.01 150)"] },
+      "gallery-media": { "role": "neutral", "displayName": "Gallery Media Well", "canonical": "#101713", "tonalRamp": ["oklch(15% 0.025 150)", "oklch(25% 0.025 150)", "oklch(36% 0.025 150)", "oklch(48% 0.025 150)", "oklch(60% 0.025 150)", "oklch(72% 0.02 150)", "oklch(84% 0.015 150)", "oklch(95% 0.008 150)"] },
+      "stories-night": { "role": "neutral", "displayName": "Stories Night", "canonical": "#11110f", "tonalRamp": ["oklch(15% 0.01 90)", "oklch(25% 0.01 90)", "oklch(36% 0.01 90)", "oklch(48% 0.01 90)", "oklch(60% 0.01 90)", "oklch(72% 0.008 90)", "oklch(84% 0.006 90)", "oklch(95% 0.003 90)"] },
+      "stories-chalk": { "role": "neutral", "displayName": "Stories Chalk", "canonical": "#f8f5ed", "tonalRamp": ["oklch(15% 0.02 90)", "oklch(25% 0.02 90)", "oklch(36% 0.02 90)", "oklch(48% 0.02 90)", "oklch(60% 0.02 90)", "oklch(72% 0.017 90)", "oklch(84% 0.012 90)", "oklch(95% 0.007 90)"] },
+      "stories-orange": { "role": "primary", "displayName": "Stories Orange", "canonical": "#e76b3c", "tonalRamp": ["oklch(15% 0.19 45)", "oklch(25% 0.19 45)", "oklch(36% 0.19 45)", "oklch(48% 0.19 45)", "oklch(60% 0.19 45)", "oklch(72% 0.145 45)", "oklch(84% 0.09 45)", "oklch(95% 0.035 45)"] },
+      "stories-estimate": { "role": "neutral", "displayName": "Stories Estimate Surface", "canonical": "#1a1a17", "tonalRamp": ["oklch(15% 0.01 90)", "oklch(25% 0.01 90)", "oklch(36% 0.01 90)", "oklch(48% 0.01 90)", "oklch(60% 0.01 90)", "oklch(72% 0.008 90)", "oklch(84% 0.006 90)", "oklch(95% 0.003 90)"] },
+      "field-ink": { "role": "neutral", "displayName": "Field Ink", "canonical": "#1e2b36", "tonalRamp": ["oklch(15% 0.05 245)", "oklch(25% 0.05 245)", "oklch(36% 0.05 245)", "oklch(48% 0.05 245)", "oklch(60% 0.05 245)", "oklch(72% 0.04 245)", "oklch(84% 0.025 245)", "oklch(95% 0.01 245)"] },
+      "field-paper": { "role": "neutral", "displayName": "Field Paper", "canonical": "#eee7d8", "tonalRamp": ["oklch(15% 0.025 85)", "oklch(25% 0.025 85)", "oklch(36% 0.025 85)", "oklch(48% 0.025 85)", "oklch(60% 0.025 85)", "oklch(72% 0.023 85)", "oklch(84% 0.02 85)", "oklch(95% 0.015 85)"] },
+      "field-red": { "role": "primary", "displayName": "Field Red", "canonical": "#a84932", "tonalRamp": ["oklch(15% 0.13 38)", "oklch(25% 0.13 38)", "oklch(36% 0.13 38)", "oklch(48% 0.13 38)", "oklch(60% 0.13 38)", "oklch(72% 0.1 38)", "oklch(84% 0.065 38)", "oklch(95% 0.025 38)"] },
+      "field-sage": { "role": "secondary", "displayName": "Field Sage", "canonical": "#7c8878", "tonalRamp": ["oklch(15% 0.03 145)", "oklch(25% 0.03 145)", "oklch(36% 0.03 145)", "oklch(48% 0.03 145)", "oklch(60% 0.03 145)", "oklch(72% 0.025 145)", "oklch(84% 0.017 145)", "oklch(95% 0.008 145)"] },
+      "standard-navy": { "role": "neutral", "displayName": "Standard Navy", "canonical": "#18232d", "tonalRamp": ["oklch(15% 0.05 245)", "oklch(25% 0.05 245)", "oklch(36% 0.05 245)", "oklch(48% 0.05 245)", "oklch(60% 0.05 245)", "oklch(72% 0.04 245)", "oklch(84% 0.025 245)", "oklch(95% 0.01 245)"] },
+      "standard-orange": { "role": "primary", "displayName": "Standard Orange", "canonical": "#d46a32", "tonalRamp": ["oklch(15% 0.17 45)", "oklch(25% 0.17 45)", "oklch(36% 0.17 45)", "oklch(48% 0.17 45)", "oklch(60% 0.17 45)", "oklch(72% 0.13 45)", "oklch(84% 0.08 45)", "oklch(95% 0.03 45)"] },
+      "standard-stone": { "role": "neutral", "displayName": "Standard Stone", "canonical": "#eceae5", "tonalRamp": ["oklch(15% 0.01 85)", "oklch(25% 0.01 85)", "oklch(36% 0.01 85)", "oklch(48% 0.01 85)", "oklch(60% 0.01 85)", "oklch(72% 0.009 85)", "oklch(84% 0.007 85)", "oklch(95% 0.004 85)"] },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(36% 0 0)", "oklch(48% 0 0)", "oklch(60% 0 0)", "oklch(72% 0 0)", "oklch(84% 0 0)", "oklch(95% 0 0)"] }
+    },
+    "typographyMeta": {
+      "display-editorial": { "displayName": "Editorial Display", "purpose": "Gallery thesis and large architectural story headlines." },
+      "display-condensed": { "displayName": "Condensed Display", "purpose": "Daily Build Log hero statements and field-forward calls to action." },
+      "title": { "displayName": "Title", "purpose": "Concept and service-card titles." },
+      "body": { "displayName": "Body", "purpose": "Plainspoken homeowner guidance and conversion support." },
+      "label": { "displayName": "Field Label", "purpose": "Actions, navigation, steps, measurements, and project types." }
+    },
+    "shadows": [
+      { "name": "floating-utility", "value": "0 8px 26px rgba(0,0,0,.18)", "purpose": "Separates the persistent back control from photography and paper surfaces." },
+      { "name": "mounted-print", "value": "8px 12px 26px rgba(53,48,38,.15)", "purpose": "Lifts the Field Book hero photograph from its drafting sheet." },
+      { "name": "inset-frame", "value": "inset 0 0 0 1px rgba(255,255,255,.08)", "purpose": "Keeps gallery preview media defined inside the dark comparison table." }
+    ],
+    "motion": [
+      { "name": "state-standard", "value": "200ms ease", "purpose": "Button color, translation, and arrow feedback." },
+      { "name": "surface-standard", "value": "250ms ease", "purpose": "Back control and selector state changes." },
+      { "name": "gallery-media", "value": "650ms cubic-bezier(.2,.8,.2,1)", "purpose": "Restrained concept-preview zoom on hover." },
+      { "name": "story-crossfade", "value": "550ms ease", "purpose": "Project Story slide opacity and visibility changes." },
+      { "name": "story-settle", "value": "1100ms cubic-bezier(.15,.85,.22,1)", "purpose": "Slow image-scale settle when a Project Story becomes active." },
+      { "name": "reduced-motion", "value": ".01ms", "purpose": "Effectively disables animation and transition motion when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "stack", "value": "980px" },
+      { "name": "mobile", "value": "680px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Shared Brand Mark",
+      "kind": "custom",
+      "description": "The ruler-in-square mark and uppercase Northline wordmark used across the gallery and all routes.",
+      "html": "<a class=\"ds-brand\" href=\"#\"><span class=\"ds-brand-symbol\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 7l4-4 14 14-4 4L3 7Z M7 7l2-2 M10 10l2-2 M13 13l2-2 M16 16l2-2\"/></svg></span><span>Northline <b>Build Co.</b></span></a>",
+      "css": ".ds-brand{display:inline-flex;align-items:center;gap:11px;color:#17211b;text-decoration:none;text-transform:uppercase;letter-spacing:.045em;font:500 16px/1 'DM Sans',Arial,sans-serif;white-space:nowrap}.ds-brand b{font-weight:700}.ds-brand-symbol{width:31px;height:31px;display:grid;place-items:center;border:1px solid currentColor}.ds-brand-symbol svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-brand:focus-visible{outline:3px solid #dc744c;outline-offset:4px}"
+    },
+    {
+      "name": "Sparse Route Navigation",
+      "kind": "nav",
+      "description": "The shared navigation behavior: durable brand at left, sparse section links, and one clear estimate action.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\"><span>N</span> NORTHLINE <b>BUILD CO.</b></a><div><a href=\"#\">SERVICES</a><a href=\"#\">PROCESS</a></div><a class=\"ds-nav-action\" href=\"#\">REQUEST AN ESTIMATE</a></nav>",
+      "css": ".ds-nav{min-height:82px;padding:0 28px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px;border-bottom:1px solid #d7d9d8;background:#fff;color:#18232d;font-family:'DM Sans',Arial,sans-serif}.ds-nav a{color:inherit;text-decoration:none}.ds-nav-brand{display:inline-flex;align-items:center;gap:9px;text-transform:uppercase;letter-spacing:.045em;font-size:14px;white-space:nowrap}.ds-nav-brand span{width:31px;height:31px;display:grid;place-items:center;border:1px solid currentColor}.ds-nav>div{display:flex;gap:32px;font-size:11px}.ds-nav-action{justify-self:end;min-height:45px;padding:0 18px;display:inline-flex;align-items:center;background:#d46a32;color:#fff!important;text-transform:uppercase;letter-spacing:.05em;font-size:11px;font-weight:600;transition:background .2s ease}.ds-nav>div a:hover{color:#d46a32}.ds-nav-action:hover{background:#a94f31}.ds-nav a:focus-visible{outline:3px solid #dc744c;outline-offset:4px}@media(max-width:680px){.ds-nav{grid-template-columns:1fr;padding:0 18px}.ds-nav>div,.ds-nav-action{display:none}}"
+    },
+    {
+      "name": "Shared Estimate Action",
+      "kind": "button",
+      "refersTo": "action-primary",
+      "description": "The common sharp clay action used by Daily Build Log and shared estimate forms.",
+      "html": "<button class=\"ds-action\">REQUEST AN ESTIMATE <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M14 7l5 5-5 5\"/></svg></button>",
+      "css": ".ds-action{min-height:54px;padding:0 21px;border:0;border-radius:0;display:inline-flex;align-items:center;justify-content:center;gap:12px;background:#c7653d;color:#fff;cursor:pointer;text-transform:uppercase;letter-spacing:.07em;font:600 12px/1 'Barlow Condensed','Arial Narrow',sans-serif;transition:background .2s ease,transform .2s ease}.ds-action svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2}.ds-action:hover{background:#a94f31;transform:translateY(-1px)}.ds-action:active{transform:translateY(0)}.ds-action:focus-visible{outline:3px solid #dc744c;outline-offset:4px}"
+    },
+    {
+      "name": "Underline Form Field",
+      "kind": "input",
+      "refersTo": "form-field",
+      "description": "A transparent, square field that relies on one bottom rule and a compact uppercase label.",
+      "html": "<label class=\"ds-field\"><span>EMAIL</span><input type=\"email\" placeholder=\"you@example.com\"></label>",
+      "css": ".ds-field{display:grid;gap:7px;width:100%;max-width:360px;color:#17211b;font-family:'DM Sans',Arial,sans-serif}.ds-field span{text-transform:uppercase;letter-spacing:.08em;font-size:10px;font-weight:600}.ds-field input{width:100%;padding:15px 0;border:0;border-bottom:1px solid currentColor;border-radius:0;background:transparent;color:inherit;font:400 16px/1.65 'DM Sans',Arial,sans-serif;outline:none}.ds-field input::placeholder{color:currentColor;opacity:.55}.ds-field input:focus-visible{outline:3px solid #dc744c;outline-offset:4px}"
+    },
+    {
+      "name": "Back to Concepts Control",
+      "kind": "button",
+      "refersTo": "back-control",
+      "description": "The persistent floating utility that keeps every full concept connected to the comparison gallery.",
+      "html": "<button class=\"ds-back\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M19 12H5M10 7l-5 5 5 5\"/></svg> BACK TO CONCEPTS</button>",
+      "css": ".ds-back{display:inline-flex;align-items:center;gap:9px;padding:12px 15px;border:0;border-radius:2px;background:#f1ead9;color:#17211b;box-shadow:0 8px 26px rgba(0,0,0,.18);cursor:pointer;text-transform:uppercase;letter-spacing:.08em;font:600 12px/1 'DM Sans',Arial,sans-serif;transition:transform .25s ease,background .25s ease}.ds-back svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2}.ds-back:hover{transform:translateY(-2px)}.ds-back:active{transform:translateY(0)}.ds-back:focus-visible{outline:3px solid #dc744c;outline-offset:4px}"
+    },
+    {
+      "name": "Gallery Concept Card",
+      "kind": "card",
+      "description": "The signature comparison card: dark preview well, warm paper copy panel, accent number, and one square open control.",
+      "html": "<article class=\"ds-concept\"><div class=\"ds-concept-media\"><svg viewBox=\"0 0 320 170\" aria-hidden=\"true\"><rect width=\"320\" height=\"170\"/><path d=\"M0 130 92 74l54 34 58-53 116 75v40H0Z\"/></svg><span>YOUR PICK</span></div><div class=\"ds-concept-copy\"><b>03</b><div><h3>Vertical Project Stories</h3><p>Project-first, cinematic, and designed for immediate visual impact.</p></div><button aria-label=\"Open concept\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M14 7l5 5-5 5\"/></svg></button></div></article>",
+      "css": ".ds-concept{width:min(520px,100%);overflow:hidden;border:1px solid rgba(241,234,217,.15);border-radius:0;background:#202c25;color:#17211b}.ds-concept-media{position:relative;aspect-ratio:16/8.2;overflow:hidden;background:#101713;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}.ds-concept-media svg{width:100%;height:100%;fill:#6f6657}.ds-concept-media svg path{fill:#9c8a6e;transition:transform .65s cubic-bezier(.2,.8,.2,1);transform-origin:center}.ds-concept-media span{position:absolute;left:18px;top:18px;padding:8px 10px;background:#c7653d;color:#fff7ea;text-transform:uppercase;letter-spacing:.11em;font:600 10px/1 'DM Sans',Arial,sans-serif}.ds-concept-copy{min-height:132px;display:grid;grid-template-columns:40px 1fr 42px;gap:16px;align-items:start;padding:23px;background:#f1ead9}.ds-concept-copy>b{color:#c7653d;font:600 22px/1 'Barlow Condensed','Arial Narrow',sans-serif}.ds-concept h3{margin:0 0 7px;font:600 30px/1 'Newsreader',Georgia,serif}.ds-concept p{margin:0;color:#59615a;font:400 13px/1.45 'DM Sans',Arial,sans-serif}.ds-concept button{width:40px;height:40px;display:grid;place-items:center;border:1px solid #a9a597;border-radius:0;background:transparent;color:#17211b;cursor:pointer;transition:background .25s ease,color .25s ease}.ds-concept button svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2}.ds-concept:hover .ds-concept-media path{transform:scale(1.025)}.ds-concept:hover button{background:#c7653d;color:#fff;border-color:#c7653d}.ds-concept button:focus-visible{outline:3px solid #dc744c;outline-offset:4px}"
+    },
+    {
+      "name": "Project Story Selector",
+      "kind": "chip",
+      "description": "A translucent cinematic selector whose active state becomes a solid route-accent block.",
+      "html": "<div class=\"ds-story-select\"><button class=\"active\"><span>01</span> RENOVATION</button><button><span>02</span> ADDITION</button><button><span>03</span> NEW BUILD</button></div>",
+      "css": ".ds-story-select{display:grid;gap:10px;width:150px;padding:20px;background:#11110f}.ds-story-select button{width:150px;padding:12px 14px;border:1px solid rgba(248,245,237,.45);border-radius:0;display:flex;align-items:center;gap:13px;background:rgba(17,17,15,.3);color:#f8f5ed;cursor:pointer;text-transform:uppercase;letter-spacing:.06em;text-align:left;font:600 10px/1 'DM Sans',Arial,sans-serif;transition:background .25s ease,border .25s ease}.ds-story-select button span{color:#c4c1ba}.ds-story-select button:hover{border-color:#e76b3c}.ds-story-select button.active{background:#e76b3c;border-color:#e76b3c;color:#fff}.ds-story-select button.active span{color:#fff}.ds-story-select button:focus-visible{outline:3px solid #dc744c;outline-offset:4px}"
+    },
+    {
+      "name": "Field Book Plan Card",
+      "kind": "card",
+      "description": "A centered service panel drawn with plan lines, a serif title, and a drafting-red measure mark.",
+      "html": "<article class=\"ds-plan\"><svg viewBox=\"0 0 120 90\" aria-hidden=\"true\"><path d=\"M8 78h104M17 78V36l28-21 28 21v42M73 78V45l18-13 21 15v31M45 15v63M30 78V53h28v25M80 57h19M90 47v21\"/></svg><h3>Additions</h3><p>New space that connects naturally to what is already there.</p></article>",
+      "css": ".ds-plan{width:min(360px,100%);min-height:410px;padding:45px 32px 30px;border-top:1px solid #7c8878;border-right:1px solid #7c8878;border-radius:0;background:#eee7d8;color:#1e2b36;text-align:center}.ds-plan svg{width:170px;height:135px;margin:0 auto 26px;fill:none;stroke:#1e2b36;stroke-width:1.15;stroke-linecap:square}.ds-plan h3{margin:0 0 13px;font:600 34px/1 'Newsreader',Georgia,serif}.ds-plan h3:after{content:'';display:block;width:28px;height:2px;margin:12px auto;background:#a84932}.ds-plan p{max-width:340px;margin:0 auto;color:#5c615c;font:400 13px/1.65 'DM Sans',Arial,sans-serif}"
+    },
+    {
+      "name": "Standard Service Card",
+      "kind": "card",
+      "description": "The familiar route's clean service column, separated by rules and finished with an orange text action.",
+      "html": "<article class=\"ds-standard-card\"><span>1</span><h3>Renovations</h3><p>Reimagine the home you have.</p><a href=\"#\">DISCUSS YOUR PROJECT <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M14 7l5 5-5 5\"/></svg></a></article>",
+      "css": ".ds-standard-card{width:min(380px,100%);padding:40px 32px 44px;border-top:1px solid #aeb1ae;border-right:1px solid #aeb1ae;border-bottom:1px solid #aeb1ae;border-radius:0;background:#eceae5;color:#18232d}.ds-standard-card>span{color:#d46a32;font:500 22px/1 'Barlow Condensed','Arial Narrow',sans-serif}.ds-standard-card h3{margin:42px 0 12px;font:600 35px/1 'Newsreader',Georgia,serif}.ds-standard-card p{color:#5d6465;font:400 16px/1.65 'DM Sans',Arial,sans-serif}.ds-standard-card a{margin-top:25px;display:inline-flex;align-items:center;gap:13px;color:#d46a32;text-decoration:none;text-transform:uppercase;letter-spacing:.06em;font:600 10px/1 'DM Sans',Arial,sans-serif}.ds-standard-card a svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;transition:transform .2s ease}.ds-standard-card a:hover svg{transform:translateX(4px)}.ds-standard-card a:focus-visible{outline:3px solid #dc744c;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Contractor's Sample Book",
+    "overview": "This is a comparison gallery of finished directions, not a single theme with four skins. The dark gallery behaves like a contractor's project table: four complete expressions are laid out for comparison, Vertical Project Stories receives cinematic priority, and every card has one obvious action. Opening a concept replaces the table with a full visual world rather than carrying the gallery composition into the route.\n\nThe worlds share honest residential imagery, plainspoken copy, sharp controls, warm construction-derived accents, and a disciplined three-font vocabulary. Their composition stays deliberately different: Project Stories is immersive and cinematic; Daily Build Log is procedural and field-driven; Architect's Field Book is measured and tactile; Category Standard is familiar, open, and conversion-forward.",
+    "keyCharacteristics": [
+      "A dark comparison shell with warm paper card interiors and oversized editorial framing.",
+      "Four route-specific palette and form systems that remain visibly independent.",
+      "Large architectural photography used as evidence of craft, never as decorative wallpaper alone.",
+      "Square controls, hairline rules, uppercase labels, and restrained warm accents.",
+      "Plainspoken conversion copy with one clear estimate path inside every concept."
+    ],
+    "rules": [
+      { "name": "The Four Palettes Rule", "body": "Keep each route on its documented accent and neutral pair; do not normalize all four concepts to Shared Clay.", "section": "colors" },
+      { "name": "The Warm Material Rule", "body": "Use chalk, paper, stone, forest, navy, and fired-earth colors; avoid cold tech blues and synthetic gradients as primary surfaces.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Serif tells the architectural story; condensed uppercase type names work, phases, and actions. DM Sans explains what happens next.", "section": "typography" },
+      { "name": "The Tight Display Rule", "body": "Large headings use compact line-height and modest negative tracking; never loosen them into generic marketing typography.", "section": "typography" },
+      { "name": "The Complete World Rule", "body": "A route may reuse shared primitives, but its composition must remain native to its concept; do not transplant the Field Book frame into Stories or the Stories rail into Standard.", "section": "layout" },
+      { "name": "The One Clear Action Rule", "body": "Every first viewport exposes one dominant action without surrounding it with competing buttons.", "section": "layout" },
+      { "name": "The Flat-by-Default Rule", "body": "Do not add card shadows to the gallery, service lists, process rails, or forms; borders and tonal contrast already define their structure.", "section": "elevation" },
+      { "name": "The Sheet-Cut Rule", "body": "Default to zero-radius rectangles; a rounded card would contradict the built material language.", "section": "shapes" },
+      { "name": "The Circle Has Meaning Rule", "body": "Use circles only for stamps, indexed callouts, or other explicit site-document notation.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do preserve all four palette and composition variants as separate complete worlds.",
+      "Do let architectural imagery carry the first impression and support it with believable, plainspoken specificity.",
+      "Do use square controls, hairline rules, uppercase labels, and warm construction-derived accents.",
+      "Do keep the persistent route back control and the front-end-demo disclosure on every estimate form.",
+      "Do stack grids cleanly at 980px and compress to direct mobile flows at 680px."
+    ],
+    "donts": [
+      "Don't turn the showcase into one generic photo-and-card template or apply one route's layout to all four.",
+      "Don't replace the serif/condensed/sans hierarchy with a single neutral sans-serif voice.",
+      "Don't add soft rounded cards, ambient dashboard shadows, glass effects, or cold technology colors.",
+      "Don't invent testimonials, ratings, credentials, project metrics, or other proof the fictional contractor does not own.",
+      "Don't hide keyboard focus, remove reduced-motion behavior, or imply that the demo form is already connected to a backend."
+    ]
+  }
+}
