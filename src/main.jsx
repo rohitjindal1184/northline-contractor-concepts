@@ -44,6 +44,66 @@ const concepts = [
   },
 ]
 
+const EXIT_INTENT_STORAGE_KEY = 'northline-exit-intent-shown'
+const EXIT_INTENT_ARM_DELAY_MS = 4000
+const EXIT_INTENT_SCROLL_SAMPLE_MS = 150
+const EXIT_INTENT_SCROLL_DELTA = 60
+const EXIT_INTENT_SCROLL_ZONE = 400
+
+function useExitIntent(onTrigger) {
+  const onTriggerRef = useRef(onTrigger)
+  onTriggerRef.current = onTrigger
+
+  useEffect(() => {
+    if (window.sessionStorage.getItem(EXIT_INTENT_STORAGE_KEY) === '1') return undefined
+
+    let armed = false
+    const armTimer = window.setTimeout(() => {
+      armed = true
+    }, EXIT_INTENT_ARM_DELAY_MS)
+
+    const fire = (source) => {
+      if (!armed) return
+      window.sessionStorage.setItem(EXIT_INTENT_STORAGE_KEY, '1')
+      cleanup()
+      track('exit_intent_open', { source })
+      onTriggerRef.current()
+    }
+
+    const handleMouseOut = (event) => {
+      if (event.clientY <= 0 && !event.relatedTarget) fire('desktop')
+    }
+
+    document.addEventListener('mouseout', handleMouseOut)
+
+    // Touch devices have no "mouse leaves the window" signal, so approximate
+    // exit intent with a fast upward scroll near the top of the page, sampled
+    // periodically rather than per scroll-event (scroll-behavior: smooth
+    // animates position changes into many tiny per-event deltas).
+    let scrollTimer = null
+    const isCoarsePointer = window.matchMedia?.('(pointer: coarse)').matches
+    if (isCoarsePointer) {
+      let lastSampleY = window.scrollY
+      scrollTimer = window.setInterval(() => {
+        const currentScrollY = window.scrollY
+        const delta = lastSampleY - currentScrollY
+        if (delta >= EXIT_INTENT_SCROLL_DELTA && currentScrollY < EXIT_INTENT_SCROLL_ZONE) {
+          fire('mobile')
+        }
+        lastSampleY = currentScrollY
+      }, EXIT_INTENT_SCROLL_SAMPLE_MS)
+    }
+
+    function cleanup() {
+      window.clearTimeout(armTimer)
+      document.removeEventListener('mouseout', handleMouseOut)
+      if (scrollTimer) window.clearInterval(scrollTimer)
+    }
+
+    return cleanup
+  }, [])
+}
+
 function useRoute() {
   const [path, setPath] = useState(window.location.pathname)
   useEffect(() => {
@@ -475,8 +535,16 @@ function StandardPage({ navigate }) {
 function App() {
   const [path, navigate] = useRoute()
   const [bookingOpen, setBookingOpen] = useState(false)
+  const bookingOpenRef = useRef(bookingOpen)
+  bookingOpenRef.current = bookingOpen
   const openBooking = useCallback(() => setBookingOpen(true), [])
   const closeBooking = useCallback(() => setBookingOpen(false), [])
+
+  useExitIntent(
+    useCallback(() => {
+      if (!bookingOpenRef.current) openBooking()
+    }, [openBooking]),
+  )
 
   useEffect(() => {
     const query = new URLSearchParams(window.location.search)
